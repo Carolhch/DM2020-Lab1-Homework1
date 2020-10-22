@@ -21,3 +21,4 @@ def data_split(data, split, index):
     for s in data:
         D.append(s.split(split)[index])
     return D
+
